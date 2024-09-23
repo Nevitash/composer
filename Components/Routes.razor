@@ -1,0 +1,11 @@
+﻿<Router AppAssembly="@typeof(MauiProgram).Assembly"
+        AdditionalAssemblies="new[]{
+typeof(Composer.Component.Areas.Page.Counter).Assembly,
+typeof(Composer.Component.Areas.Page.Home).Assembly,
+typeof(Composer.Component.Areas.Page.Weather).Assembly
+}">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(Composer.Component.Areas.Layout.MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+</Router>
