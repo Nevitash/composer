@@ -65,7 +65,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Composer.Component\Composer.Component.csproj" />
+      <ProjectReference Include="..\composer_components\Composer.Component.csproj" />
     </ItemGroup>
 
     <ItemGroup>
