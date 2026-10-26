@@ -1,4 +1,4 @@
-﻿# Composer _(composer)_
+# Composer _(composer)_
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -23,29 +23,29 @@ Composer leverages .NET MAUI with Blazor Hybrid webview integration to share pre
 
 Requires .NET 8 or .NET 9 SDK with the MAUI workload installed:
 
-`ash
+```bash
 dotnet workload install maui
-`
+```
 
 Restore dependencies:
 
-`ash
+```bash
 dotnet restore composer.csproj
-`
+```
 
 ## Usage
 
 Run on Windows desktop:
 
-`ash
+```bash
 dotnet build composer.csproj -t:Run -f net8.0-windows10.0.19041.0
-`
+```
 
 Run on Android emulator or connected device:
 
-`ash
+```bash
 dotnet build composer.csproj -t:Run -f net8.0-android
-`
+```
 
 ## Maintainers
 
